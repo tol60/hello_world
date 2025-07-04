@@ -23,6 +23,8 @@ code .
 
 Sample example from youtube (includes step 2):
 https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
+ Another example (connecting Visual Studio):
+https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 (Ctrl + L, \\wsl$; Extentions->remote wsl)
 
 Step 4 Install the compiler:
 
