@@ -32,7 +32,7 @@ Step 5 Install git (if not present):
 
 sudo apt-get update
 
-sudo apt-get install g++
+sudo apt-get install git
 
 Step 6 Execute:
 
