@@ -22,6 +22,40 @@ code .
 Sample example from youtube (includes step 2):
 https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
 
+Install the compiler:
+sudo apt-get update
+sudo apt-get install g++
+
+Install git (if not present):
+sudo apt-get update
+sudo apt-get install g++
+
+Execute:
+cd 
+pwd
+ls
+mkdir PROGRAMMING
+ls
+cd PROGRAMMING
+pwd
+ls 
+git clone https://github.com/tol60/hello_world.git
+ls
+cd hello_world
+pwd
+ls
+
+Compile (should generate a.out):
+g++ HelloStraus.C
+Run a program:
+./a.out
+
+Compile (should generate HelloStraus.exe)
+g++ -std=c++11 -g -o HelloStraus.exe HelloStraus.C  2>&1 | tee tmp.txt
+Run a program:
+./HelloStraus.exe
+
+Extra commands:
 pwd       show current directory
 
 ls        list directory
