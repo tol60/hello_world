@@ -5,6 +5,8 @@ In Windows PowerShell
 
 wsl --install
 
+wsl --status
+
 Extra details
 https://learn.microsoft.com/en-us/windows/wsl/install
 
