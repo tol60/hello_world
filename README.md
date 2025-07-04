@@ -1,88 +1,96 @@
-# hello_world
+# Setting up WSL (Windows sybsystem for Linux)
 
-Step 1 Install WSL (Windows Subsystem for Linux)
-In Windows PowerShell
+## Instullation
+### Step 1 Install WSL (Windows Subsystem for Linux)
 
-wsl --install
+To **install** (in **Windows PowerShell**)
 
-wsl --status
+`wsl --install`
+
+To check status
+
+`wsl --status`
 
 Extra details
 https://learn.microsoft.com/en-us/windows/wsl/install
 
-Step 2 Install Ubuntu.
+***Enable Virtualazation Bios*** 
+https://yandex.ru/video/preview/2809549896879216036
+
+### Step 2 Install Ubuntu.
 https://ubuntu.com/desktop/wsl
-(username, password. Do not forget it)
-(тут устанавливается пароль, который надо обязательно запомнить).
+(username, **password**. Do **not forget** it)
+(тут устанавливается **пароль**, который надо **обязательно запомнить**).
 
-Step 3 Install Visual Studio Code.
+### Step 3 Install Visual Studio Code.
 https://code.visualstudio.com/download
-to start, type:
+Once installed, to start, type:
 
-code .
+`code .`
 
 Sample example from youtube (includes step 2):
 https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
  Another example (connecting Visual Studio):
 https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 (Ctrl + L, \\wsl$; Extentions->remote wsl)
 
-Step 4 Install the compiler:
+### Step 4 Install the compiler:
 
+```
 sudo apt-get update
-
 sudo apt-get install g++
+```
 
-Step 5 Execute:
+### Step 5 Execute:
 
-cd 
-
+```rust {.line-numbers}
+cd
 pwd
-
 ls
+```
 
-mkdir PROGRAMMING
+`mkdir PROGRAMMING`
 
-ls
+`ls`
 
-cd PROGRAMMING
+`cd PROGRAMMING`
 
-pwd
+`pwd`
 
-ls 
+`ls` 
 
-git clone https://github.com/tol60/hello_world.git
+`git clone https://github.com/tol60/hello_world.git`
 
-ls
+`ls`
 
-cd hello_world
+`cd hello_world`
 
-pwd
+`pwd`
 
-ls
+`ls`
 
-ls *.C
+`ls *.C`
 
-cat HelloStraus.C
+`cat HelloStraus.C`
 
-grep -i cout HelloStraus.C
+`grep -i cout HelloStraus.C`
 
-Compile (should generate a.out):
+**Compile** (should generate **a.out**):
 
-g++ HelloStraus.C
+`g++ HelloStraus.C`
 
-Run a program:
+**Run a program:**
 
-./a.out
+`./a.out`
 
-Compile (should generate HelloStraus.exe)
+**Compile** (should generate **HelloStraus.exe**)
 
-g++ -std=c++11 -g -o HelloStraus.exe HelloStraus.C  2>&1 | tee tmp.txt
+`g++ -std=c++11 -g -o HelloStraus.exe HelloStraus.C  2>&1 | tee tmp.txt`
 
-Run a program:
+**Run** a program:
 
-./HelloStraus.exe
+`./HelloStraus.exe`
 
-Extra commands:
+## Extra commands:
 
 pwd       // show current directory
 
