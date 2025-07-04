@@ -28,13 +28,7 @@ sudo apt-get update
 
 sudo apt-get install g++
 
-Step 5 Install git (if not present):
-
-sudo apt-get update
-
-sudo apt-get install git
-
-Step 6 Execute:
+Step 5 Execute:
 
 cd 
 
