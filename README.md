@@ -34,7 +34,7 @@ sudo apt-get update
 
 sudo apt-get install g++
 
-Step 5Execute:
+Step 6 Execute:
 
 cd 
 
@@ -62,7 +62,11 @@ pwd
 
 ls
 
+ls *.C
+
 cat HelloStraus.C
+
+grep -i cout HelloStraus.C
 
 Compile (should generate a.out):
 
@@ -86,11 +90,16 @@ pwd       // show current directory
 
 ls        // list directory
 
-ls -altr  // list files (including hiddent that start with .)
-
-df -h     // show mount points (in case you need to access windows folder)
+ls -altr  // list files (including hiddent that start with '.'). a = all, l = long info, -t = sort by time, -r = reverse order
 
 cat FILENAME // display file content
 
+cp FILEFROM FILETO  // copy file FROM to a new file FROM to a new file TO
+
+grep PATTERN FILE // search for a regular expression PATTERN in a FILE 
+
+df -h     // show mount points (in case you need to access windows folder)
+
+man COMMAND // will print help information on a given command
 
 
