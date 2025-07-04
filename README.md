@@ -22,48 +22,75 @@ code .
 Sample example from youtube (includes step 2):
 https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
 
-Install the compiler:
+Step 4 Install the compiler:
+
 sudo apt-get update
+
 sudo apt-get install g++
 
-Install git (if not present):
+Step 5 Install git (if not present):
+
 sudo apt-get update
+
 sudo apt-get install g++
 
-Execute:
+Step 5Execute:
+
 cd 
+
 pwd
+
 ls
+
 mkdir PROGRAMMING
+
 ls
+
 cd PROGRAMMING
+
 pwd
+
 ls 
+
 git clone https://github.com/tol60/hello_world.git
+
 ls
+
 cd hello_world
+
 pwd
+
 ls
+
+cat HelloStraus.C
 
 Compile (should generate a.out):
+
 g++ HelloStraus.C
+
 Run a program:
+
 ./a.out
 
 Compile (should generate HelloStraus.exe)
+
 g++ -std=c++11 -g -o HelloStraus.exe HelloStraus.C  2>&1 | tee tmp.txt
+
 Run a program:
+
 ./HelloStraus.exe
 
 Extra commands:
-pwd       show current directory
 
-ls        list directory
+pwd       // show current directory
 
-ls -altr  list files (including hiddent that start with .)
+ls        // list directory
 
-df -h     show mount points (in case you need to access windows folder)
+ls -altr  // list files (including hiddent that start with .)
 
+df -h     // show mount points (in case you need to access windows folder)
+
+cat FILENAME // display file content
 
 
 
