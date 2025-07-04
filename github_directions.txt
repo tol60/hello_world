@@ -1,0 +1,31 @@
+
+git
+
+General idea you tube (Russian)
+https://www.youtube.com/watch?v=EeARyFrZsnU&t=4s
+
+
+More details you tube (Russian)
+https://www.youtube.com/watch?v=VJm_AjiTEEc
+
+git init
+git clone REPO_PATH
+git pull 
+git checkout BRANCH
+git add
+git commit -m "message"
+git push
+git status
+git log
+git branch
+
+
+
+If you want to do 
+
+git push
+
+Creating access tokens:
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
+
+
