@@ -98,4 +98,6 @@ df -h     // show mount points (in case you need to access windows folder)
 
 man COMMAND // will print help information on a given command
 
+lsb_release -a // which ubuntu release do we have
+
 
