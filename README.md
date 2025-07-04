@@ -32,3 +32,4 @@ df -h     show mount points (in case you need to access windows folder)
 
 
 
+
