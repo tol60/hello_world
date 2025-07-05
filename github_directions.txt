@@ -1,5 +1,4 @@
-
-git
+# git basics
 
 General idea you tube (Russian)
 https://www.youtube.com/watch?v=EeARyFrZsnU&t=4s
@@ -8,29 +7,39 @@ https://www.youtube.com/watch?v=EeARyFrZsnU&t=4s
 More details you tube (Russian)
 https://www.youtube.com/watch?v=VJm_AjiTEEc
 
+### Frequent use
+```
+git pull
+git add FILE
+git commit -m "message"
+git pull
+git push
+```
+
+### Extra commands
+```
 git init
 git clone REPO_PATH
-git pull 
 git checkout BRANCH
-git add
-git commit -m "message"
-git push
 git status
 git log
 git branch
+git remote -v
+```
 
 
 
 If you want to do 
 
-git push
+`git push`
 Need to create access tokens
 
 you tube https://www.youtube.com/watch?v=IuiH6cBtc58
 
+```
 git clone https://github.com/tol60/hello_world.git
 git remote set-url origin https://USER:PASSCODE@github.com/tol60/hello_world.git
-
+```
 
 
 Creating access tokens description URL:
