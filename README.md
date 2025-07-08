@@ -18,6 +18,12 @@ To check status
 >
 > ***Enable Virtualazation in BIOS*** 
 > https://yandex.ru/video/preview/2809549896879216036
+>
+> ***Windows Settings***
+> https://medium.com/@chibuokejuliet/enable-virtualization-on-windows-os-to-allow-the-use-of-linux-os-da563f659e37
+> 
+> "Trun Windows Features on and off". 
+> In the window that pops up, enable the following features — ***Hyper-V, Virtual Machine Platform, Windows Subsystem for Linux (WSL) .***
 
 ### Step 2 Install Ubuntu.
 https://ubuntu.com/desktop/wsl
