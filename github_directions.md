@@ -26,7 +26,12 @@ git log
 git branch
 git remote -v
 ```
-
+> [!NOTE]
+> To clean the repo:
+> 
+> ``` git clean -dfx ```
+>
+>  `-f` flag to remove the files, and the `-d` flag to remove empty directories as well, `-x` removing ignored files
 
 > [!IMPORTANT]
 > If you want to do 
