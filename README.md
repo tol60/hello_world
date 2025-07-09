@@ -46,6 +46,14 @@ Once installed, to start, type:
 > Another example (connecting Visual Studio):
 > https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 (Ctrl + L, `\\wsl$`; Extentions->remote wsl)
 
+> [!NOTE]
+> ERROR: UtilAcceptVsock:271: accept4 failed 110
+> https://github.com/microsoft/WSL/issues/8677
+> ```
+> wsl --shutdown
+> wsl
+> ```
+
 ### Step 4 Install the compiler:
 
 ```
