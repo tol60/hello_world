@@ -28,13 +28,13 @@ git remote -v
 ```
 
 
-
-If you want to do 
-
-`git push`
-Need to create access tokens
-
-you tube https://www.youtube.com/watch?v=IuiH6cBtc58
+> [!IMPORTANT]
+> If you want to do 
+>
+> `git push`
+> Need to create access tokens
+>
+> you tube https://www.youtube.com/watch?v=IuiH6cBtc58
 
 ```
 git clone https://github.com/tol60/hello_world.git
@@ -42,9 +42,9 @@ git remote set-url origin https://USER:PASSCODE@github.com/tol60/hello_world.git
 ```
 
 
-Creating access tokens description URL:
+### Creating access tokens description URL:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic
 
-Private Repositories (access control)
+### Private Repositories (access control)
 you tube https://www.youtube.com/watch?v=m8ujcM7z9A8
 

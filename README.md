@@ -18,6 +18,12 @@ To check status
 >
 > ***Enable Virtualazation in BIOS*** 
 > https://yandex.ru/video/preview/2809549896879216036
+>
+> ***Windows Settings***
+> https://medium.com/@chibuokejuliet/enable-virtualization-on-windows-os-to-allow-the-use-of-linux-os-da563f659e37
+> 
+> "Trun Windows Features on and off". 
+> In the window that pops up, enable the following features — ***Hyper-V, Virtual Machine Platform, Windows Subsystem for Linux (WSL) .***
 
 ### Step 2 Install Ubuntu.
 https://ubuntu.com/desktop/wsl
@@ -38,7 +44,18 @@ Once installed, to start, type:
 > https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
 >
 > Another example (connecting Visual Studio):
-> https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 (Ctrl + L, `\\wsl$`; Extentions->remote wsl)
+>
+> (Ctrl + L, `\\wsl$`) https://youtu.be/bRW5r7TK6KM?si=KuXxpmTKdd_GHJqK&t=254 
+> 
+> (Extentions->remote wsl) https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 
+
+> [!NOTE]
+> ERROR: UtilAcceptVsock:271: accept4 failed 110
+> https://github.com/microsoft/WSL/issues/8677
+> ```
+> wsl --shutdown
+> wsl
+> ```
 
 ### Step 4 Install the compiler:
 
