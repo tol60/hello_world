@@ -44,7 +44,10 @@ Once installed, to start, type:
 > https://www.youtube.com/watch?v=av0UQy6g2FA&t=7s
 >
 > Another example (connecting Visual Studio):
-> https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 (Ctrl + L, `\\wsl$`; Extentions->remote wsl)
+>
+> (Ctrl + L, `\\wsl$`) https://youtu.be/bRW5r7TK6KM?si=KuXxpmTKdd_GHJqK&t=254 
+> 
+> (Extentions->remote wsl) https://youtu.be/bRW5r7TK6KM?si=dFliCqgJBmK4KzAq&t=372 
 
 > [!NOTE]
 > ERROR: UtilAcceptVsock:271: accept4 failed 110
