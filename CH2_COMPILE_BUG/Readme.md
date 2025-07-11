@@ -9,7 +9,10 @@ g++ HelloStraus_Bug1.C
 ./a.out
 ./a.out > tmp.txt
 ./a.out |tee tmp.txt
+./a.out 2>&1 |tee tmp.txt
 g++ HelloStraus_Bug1.C > tmp.txt
+g++ HelloStraus_Bug1.C |tee tmp.txt
+g++ HelloStraus_Bug1.C 2>&1 |tee tmp.txt
 ```
 
 ## Explanation
