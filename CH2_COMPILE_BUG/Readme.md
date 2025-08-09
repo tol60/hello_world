@@ -1,7 +1,7 @@
 # Ch2 Compile Bug
 Compile HelloStraus_Bug*.C examples
 
-## Where does <iostream> come from?
+## Where does `<iostream>` come from?
 ```
 g++ -E -x c++ - -v < /dev/null
 ```
