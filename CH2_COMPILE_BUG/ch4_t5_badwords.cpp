@@ -21,7 +21,7 @@ void print_bad_words() {
 }
 
 void print_bad_words_2() {
-    cout << "Bad words using print_bad_words:\n";
+    cout << "Bad words using print_bad_words_2:\n";
     for (int i=0; i<badwords.size(); ++i){
         cout << "i=="<<i << ": "<< badwords[i] << endl;
     }
