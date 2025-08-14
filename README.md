@@ -15,6 +15,9 @@ To check status
 > [!NOTE]
 > Alternative
 > https://www.youtube.com/watch?v=Hwbii-fnKIk
+>
+> Choosing configuration
+> https://youtu.be/NY5izJWXi0U?si=dC5Ho1ikUmg6_PBK&t=338
 > 
 > Extra details
 > https://learn.microsoft.com/en-us/windows/wsl/install
