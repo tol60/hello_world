@@ -13,6 +13,9 @@ To check status
 `wsl --status`
 
 > [!NOTE]
+> Alternative
+> https://www.youtube.com/watch?v=Hwbii-fnKIk
+> 
 > Extra details
 > https://learn.microsoft.com/en-us/windows/wsl/install
 >
