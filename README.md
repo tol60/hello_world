@@ -1,3 +1,6 @@
+# ENGLISH
+https://github.com/tol60/hello_world/blob/master/ENGLISH/README.md
+
 # Setting up WSL (Windows sybsystem for Linux)
 
 ## Installation
