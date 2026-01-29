@@ -11,6 +11,10 @@ S01A Full VK https://yandex.ru/video/preview/6908092140733266765
 
 S01B Short Ru https://yandex.ru/video/preview/15887795563263978400
 
-S02_A Frozen "Let it go" https://www.youtube.com/watch?v=L0MK7qz13bU
+S02 Frozen "Let it go" https://www.youtube.com/watch?v=L0MK7qz13bU
 
-S03_A Frozen "Let it go" https://youtube.com/watch?v=kHue-HaXXzg&si=pY5mOOHlgL7Le9nI
+S02A Frozen "Let it go" (non-disney, diffr) https://youtube.com/watch?v=kHue-HaXXzg&si=pY5mOOHlgL7Le9nI
+
+S02B Ru subtitles https://rutube.ru/video/36fad9cf37c9c3fbfa67e55f3bc0fd42/
+
+S02C Yand no subtitles https://rutube.ru/video/36fad9cf37c9c3fbfa67e55f3bc0fd42/
