@@ -28,6 +28,8 @@ S02C Yand no subtitles https://rutube.ru/video/36fad9cf37c9c3fbfa67e55f3bc0fd42/
 
 S03 Champion https://www.youtube.com/watch?v=HgknAaKNaMM&list=RDHgknAaKNaMM&start_radio=1
 
+S04 For the first time in forever https://www.youtube.com/watch?v=ZrX1XKtShSI&list=RDZrX1XKtShSI&start_radio=1
+
 ### Sharing in ZOOM
 
 https://askubuntu.com/questions/1437341/how-to-share-audio-on-zoom-without-pulseaudio-in-22-10
